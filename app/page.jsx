@@ -1,7 +1,8 @@
-export default function Home() {
-  return (
-    <main>
-      <h1>HomePage</h1>
-    </main>
-  );
-}
+import { Button } from "../components/ui/button";
+import { FiDownload } from "react-icons/fi";
+
+const Home = () => {
+  return <section>Home page</section>;
+};
+
+export default Home;
